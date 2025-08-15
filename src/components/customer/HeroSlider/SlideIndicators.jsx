@@ -6,7 +6,7 @@ function SlideIndicators({ currentIndex, count, onClick }) {
             {Array.from({ length: count }).map((_, index) => (
                 <button
                     key={index}
-                    onClick={onClick}
+                    onClick={() => onClick(index)}
                     className={`w-3 h-3 rounded-full ${currentIndex === index ? 'bg-white' : 'bg-gray-400'} transition-colors duration-300`}
                 ></button>
             ))}
