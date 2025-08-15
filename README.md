@@ -10,7 +10,7 @@
 Dự án này là một ứng dụng **E-commerce demo** được xây dựng bằng **React + Vite** ở frontend.  
 Ứng dụng tương tác với một **RESTful API giả lập** để hiển thị và quản lý sản phẩm.
 
-🔗 **Demo Online:** [Xem tại đây](#)
+🔗 **Demo Online:** [Xem tại đây](https://demo-restful-api-thngeoc.vercel.app)
 
 ---
 
